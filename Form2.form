@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.hlias.Form2">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="12" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="131" y="20" width="567" height="405"/>
+    </constraints>
+    <properties>
+      <background color="-10647473"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c8841" class="javax.swing.JTextField" binding="textfield1">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14"/>
+        </properties>
+      </component>
+      <component id="21f1e" class="javax.swing.JLabel" binding="label2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="Κωδικός:"/>
+        </properties>
+      </component>
+      <component id="689be" class="javax.swing.JLabel" binding="label4">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="Βάρος:"/>
+        </properties>
+      </component>
+      <component id="fae81" class="javax.swing.JTextField" binding="textfield2">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16"/>
+        </properties>
+      </component>
+      <component id="5d7b8" class="javax.swing.JTextField" binding="textfield3">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14"/>
+        </properties>
+      </component>
+      <component id="a4cc5" class="javax.swing.JLabel" binding="label3">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="22"/>
+          <text value="Κατηγορία ζώου:"/>
+        </properties>
+      </component>
+      <component id="ada6d" class="javax.swing.JTextField" binding="textfield4">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14"/>
+        </properties>
+      </component>
+      <component id="b4d03" class="javax.swing.JLabel" binding="label5">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="Ηλικία ζώου:"/>
+        </properties>
+      </component>
+      <component id="2eb56" class="javax.swing.JTextField" binding="textfield5">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="14"/>
+        </properties>
+      </component>
+      <component id="91bd8" class="javax.swing.JButton" binding="button1">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Επιβεβαίωση"/>
+        </properties>
+      </component>
+      <component id="ddfa9" class="javax.swing.JLabel" binding="label1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="Όνομα ζώου:"/>
+        </properties>
+      </component>
+      <component id="86ede" class="javax.swing.JLabel" binding="label7">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16"/>
+          <horizontalAlignment value="4"/>
+          <text value="Επεξεργασία ή διαγραφή ζώου"/>
+        </properties>
+      </component>
+      <vspacer id="7fe2a">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="2a865" class="javax.swing.JLabel" binding="label8">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16"/>
+          <text value="Κωδικός ζώου:"/>
+        </properties>
+      </component>
+      <component id="e85d3" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Επεξεργασία"/>
+        </properties>
+      </component>
+      <hspacer id="16c00">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="105f9" class="javax.swing.JTextField" binding="textfield6">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18"/>
+        </properties>
+      </component>
+      <component id="dc0ab" class="javax.swing.JLabel" binding="label6">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Arial Black" size="18"/>
+          <text value="Προσθήκη του ζώου που θέλετε"/>
+        </properties>
+      </component>
+      <component id="c119d" class="javax.swing.JButton" binding="button3">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Διαγραφή"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
